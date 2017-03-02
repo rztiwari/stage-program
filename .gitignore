@@ -43,6 +43,7 @@ Temporary Items
 .apdisk
 
 /node_modules
+/dist
 bundle.js
 npm-debug.log
 
