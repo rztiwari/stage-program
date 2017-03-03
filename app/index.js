@@ -4,5 +4,9 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import LoginComponent from './components/login';
 
 
-
-ReactDOM.render(<MuiThemeProvider><LoginComponent /></MuiThemeProvider>, document.getElementById('app'));
+ReactDOM.render(
+  <MuiThemeProvider>
+    <LoginComponent />
+  </MuiThemeProvider>,
+  document.getElementById('app')
+);
