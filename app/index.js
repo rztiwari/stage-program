@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import LoginComponent from './components/login';
+import App from './components/app';
 
 
 ReactDOM.render(
   <MuiThemeProvider>
-    <LoginComponent />
+    <App />
   </MuiThemeProvider>,
   document.getElementById('app')
 );
